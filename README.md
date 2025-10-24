@@ -2,6 +2,9 @@
 # Predicting Drug Sensitivity in Breast Cancer Using GDSC Data
 A linear regression model to predict drug sensitivity (LN_IC50) in breast cancer cell lines using GDSC data.
 
+# Run this notebook
+This notebook can be easily run on any device as it onlu needs one input (you need to upload your kaggle api json file when prompted)
+
 ## Project Overview
 
 In this project i have used the GDSC (Genomics of Drug Sensitivity in Cancer) Dataset. This data was collected by the Genomics of Drug Sensitivity in Cancer project, a collaboration between the Sanger Institute (UK) and the Massachusetts General Hospital Cancer Center (USA). The project involves large-scale screening of human cancer cell lines with a wide range of anti-cancer drugs. Data was collected through large-scale screening of human cancer cell lines with various anti-cancer drugs. Cell viability was measured using CellTiter-Glo assay after 72 hours of drug treatment.
