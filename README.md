@@ -17,14 +17,16 @@ Drug sensitivity in cancer varies significantly between individuals, even for th
 ## Methodology
 
 The project follows a standard machine learning workflow:
-1.  **Data Acquisition**: One excel file which contained cell line details (`Cell_Lines_Details.xlsx`) and two separate CSV files were used, one containing drug sensitivity and cancer type (`GDSC_DATASET.csv`), and another containing drug concentration details (`GDSC_dataset2.csv`).
-2.  **Data Preparation**:
+1.  **Data Acquisition**: I downloaded the required data files from Kaggle
+2.  Data files can be accessed using this link (https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc?resource=download&select=GDSC_DATASET.csv)
+3.  One excel file which contained cell line details (`Cell_Lines_Details.xlsx`) and two separate CSV files were used, one containing drug sensitivity and cancer type (`GDSC_DATASET.csv`), and another containing drug concentration details (`GDSC_dataset2.csv`).
+4.  **Data Preparation**:
     *   The datasets were merged using a common `DRUG_ID`.
     *   The data was filtered to include only breast cancer cell lines (`TCGA_DESC == 'BRCA'`).
     *   Missing values were handled, and categorical features were one-hot encoded.
     *   In this data `LN_IC50`is used, which is a continuous variable so a Linear Regression Model was preferred. 
-3.  **Model Training**: A `LinearRegression` model was trained to predict the `LN_IC50` value. A `scikit-learn` pipeline was used to ensure consistency in preprocessing.
-4.  **Evaluation**: The model's performance was evaluated using standard regression metrics (R-squared, RMSE) and a visualization comparing predicted versus actual values.
+5.  **Model Training**: A `LinearRegression` model was trained to predict the `LN_IC50` value. A `scikit-learn` pipeline was used to ensure consistency in preprocessing.
+6.  **Evaluation**: The model's performance was evaluated using standard regression metrics (R-squared, RMSE) and a visualization comparing predicted versus actual values.
 
 ## Key Findings
 
