@@ -39,4 +39,4 @@ The linear regression model achieved an **R-squared of 0.7231**, indicating that
 
 The scatter plot below compares the model's predicted `LN_IC50` values against the actual values. Points that lie close to the diagonal line indicate accurate predictions.
 
-assets/regplot.png
+![regplot](assets/regplot.png)
