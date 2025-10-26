@@ -1,5 +1,4 @@
 # cancer-drug-response-prediction
-# Predicting Drug Sensitivity in Breast Cancer Using GDSC Data
 A linear regression model to predict drug sensitivity (LN_IC50) in breast cancer cell lines using GDSC data.
 
 # Run this notebook
