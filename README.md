@@ -3,7 +3,7 @@
 A linear regression model to predict drug sensitivity (LN_IC50) in breast cancer cell lines using GDSC data.
 
 # Run this notebook
-This notebook can be easily run on any device as it onlu needs one input (you need to upload your kaggle api json file when prompted)
+This notebook can be easily run on any device as it only needs one input (you need to upload your kaggle api json file when prompted)
 
 ## Project Overview
 
