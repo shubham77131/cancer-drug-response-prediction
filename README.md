@@ -21,7 +21,7 @@ Drug sensitivity in cancer varies significantly between individuals, even for th
 The project follows a standard machine learning workflow:
 1.  **Data Acquisition**: I downloaded the required data files from Kaggle
 2.  Data files can be accessed using this link (https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc?resource=download&select=GDSC_DATASET.csv)
-3.  One excel file which contained cell line details (`Cell_Lines_Details.xlsx`) and two separate CSV files were used, one containing drug sensitivity and cancer type (`GDSC_DATASET.csv`), and another containing drug concentration details (`GDSC_dataset2.csv`).
+3.  Two separate CSV files were used, one containing drug sensitivity and cancer type (`GDSC_DATASET.csv`), and another containing drug concentration details (`GDSC_dataset2.csv`).
 4.  **Data Preparation**:
     *   The datasets were merged using a common `DRUG_ID`.
     *   The data was filtered to include only breast cancer cell lines (`TCGA_DESC == 'BRCA'`).
